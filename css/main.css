@@ -2,11 +2,38 @@
 
 	padding-top: 10px;
 }
-.btn-group{
+.btnp {
 	padding-top: 10px;
 }
-img {
 
+ .paris {
 	width:50px;
+	
+}
 
+nav {
+
+	height: 55px;
+
+}
+.newbay {
+	background-color: #2ab7aa;
+    color: #fff;
+    align-self: left;
+    
+
+  
+}
+.fa-search{
+	padding:12px 5px 12px 0px;
+
+}
+
+input[type=text] {
+width: 130px;
+padding:12px 20px 12px 0px;
+    
+}
+input[type=text]:focus {
+    width: 100%;
 }

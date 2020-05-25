@@ -12,23 +12,22 @@
 <body>
  
 <div class="container">
-<header>	
 
-	<div class="btn-group">
+<div class="btn-group">
   <a href="#" class="btn font-weight-bolder" role="button"><h1>SHAFA</h1></a>
   <pre class="align-middle" >  Брендовые вещи 
   Доступно
    </pre>
    </div>
   
-  <div class="btn-group float-right">
+  <div class="btnp btn-group float-right">
    	<button type="button" class="btn far fa-comment-dots"><a href="#"></a></button>
     <button type="button" class="btn far fa-heart"><a href="#"></a></button>
 
   
 
   <div class="btn-group">
-  	<button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"><a href="#" class="btn" role="button"><img src="\front\bootstrap 4\editor\paris.jpg"  class="mx-auto d-block img-fluid rounded-circle"></a></button>
+  	<button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"><a href="#" class="btn" role="button"><img src="\front\bootstrap 4\editor\paris.jpg"  class=" paris mx-auto d-block img-fluid rounded-circle "></a></button>
   <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Link 1</a>
     <a class="dropdown-item" href="#">Link 2</a>
@@ -42,53 +41,74 @@
   </div>
 
 </div>
+
    	 
-
-	
-
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span></button>
+    <span class="navbar-toggler-icon"></span>
+  </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Женщинам</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Женщинам</a>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">Новинки</a>
+        <a class="nav-link" href="#">Новинки</a></li>
          <li class="nav-item">
-        <a class="nav-link" href="#">Косметика</a>
+        <a class="nav-link" href="#">Косметика</a></li>
          <li class="nav-item">
-        <a class="nav-link" href="#">Детям</a>
+        <a class="nav-link" href="#">Детям</a></li>
          <li class="nav-item">
-        <a class="nav-link" href="#">Мужчинам</a>
+        <a class="nav-link" href="#">Мужчинам</a></li>
          <li class="nav-item">
-        <a class="nav-link" href="#">Для дома</a>
+        <a class="nav-link" href="#">Для дома</a></li>
          <li class="nav-item">
-        <a class="nav-link" href="#">Скидка дня<span class="badge badge-danger"><small>New</small></span></a>
+        <a class="nav-link" href="#">Скидка дня <span class="badge badge-danger"><small> New</small></span></a>
       </li>
-       
-        <div></div>
-      </li>
-    </ul></div>
+    </ul>
+</div>
 
 
-<form  action="/action_page.php"><div class="input-group mb-3">
-      <!-- <div class="input-group-prepend">
-        <span class="input-group-text fas fa-search"></span>
-        </div>  -->
-  <input class=" form-control mr-sm-2" type="text" placeholder="Поиск">
-  
-  </form>
- <button type="button" class="btn btn-success"><a href="#">Добавить товар</a></button>
+<form  action="/women"><div class="input-group mb-3 ">
+ <div class="input-group-prepend">
+      <span class="input-group-text fa fa-search bg-dark border-0"></span>
+  </div>
+<input class="form-control bg-dark border-0" type="text" placeholder=" Поиск">
+</form>
+ <button type="button" class="newbay btn fas fa-plus "> Добавить товар</button>
 </nav>
-   
+</div>
 
 
-	</header>
+<div class="slideshow-container">
 
-	</div>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="\front\bootstrap 4\editor\paris.jpg">
+  <div class="text">Подпись текста</div>
+</div>
 
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_snow_wide.jpg" alt="Лес" style="width:100%">
+  <div class="text">Подпись два</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" alt="Горы" style="width:100%">
+  <div class="text">Подпись три</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
 
 
 <script src="js/main.js"></script>	
