@@ -7,28 +7,30 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <link rel="stylesheet" href="css\main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>	
 	<title></title>
 </head>
 <body>
  
-<div class="container">
-
-<div class="btn-group">
-  <a href="#" class="btn font-weight-bolder" role="button"><h1>SHAFA</h1></a>
-  <pre class="align-middle" >  Брендовые вещи 
-  Доступно
+  <header class="container Btngrtop">
+  
+  <div class=" btn-group">
+  <h1>SHAFA</h1>
+  <pre class="align-middle" >   Брендовые вещи 
+   Доступно
    </pre>
    </div>
   
-  <div class="btnp btn-group float-right">
+  <div class="btn-group float-right">
    	<button type="button" class="btn far fa-comment-dots"><a href="#"></a></button>
     <button type="button" class="btn far fa-heart"><a href="#"></a></button>
 
-  
-
   <div class="btn-group">
   	<button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"><a href="#" class="btn" role="button"><img src="\front\bootstrap 4\editor\paris.jpg"  class=" paris mx-auto d-block img-fluid rounded-circle "></a></button>
-  <div class="dropdown-menu">
+   <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Link 1</a>
     <a class="dropdown-item" href="#">Link 2</a>
     <a class="dropdown-item" href="#">Link 3</a>
@@ -39,78 +41,107 @@
     <a class="dropdown-item" href="#">Link 8</a>
   </div>
   </div>
+  </header>
 
-</div>
 
-   	 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+   <div class="container">	 
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top ">
+  
   <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    
     <ul class="navbar-nav">
-      <li class="nav-item dropdown">
+    <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Женщинам</a>
         <div class="dropdown-menu">
         <a class="dropdown-item" href="#">Link 1</a>
         <a class="dropdown-item" href="#">Link 2</a>
         <a class="dropdown-item" href="#">Link 3</a>
       </div>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Новинки</a></li>
-         <li class="nav-item">
-        <a class="nav-link" href="#">Косметика</a></li>
-         <li class="nav-item">
-        <a class="nav-link" href="#">Детям</a></li>
-         <li class="nav-item">
-        <a class="nav-link" href="#">Мужчинам</a></li>
-         <li class="nav-item">
-        <a class="nav-link" href="#">Для дома</a></li>
-         <li class="nav-item">
-        <a class="nav-link" href="#">Скидка дня <span class="badge badge-danger"><small> New</small></span></a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">Новинки</a>
+    </li>
+         
+    <li class="nav-item">
+        <a class="nav-link" href="#">Косметика</a>
+    </li>
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Детям</a>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+         
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Мужчинам</a>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Для дома</a>
+        <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">Скидка дня <span class="badge badge-danger "><small> New</small></span></a>
       </li>
     </ul>
 </div>
 
-
-<form  action="/women"><div class="input-group mb-3 ">
+<form  action="/women"><div class="input-group">
  <div class="input-group-prepend">
       <span class="input-group-text fa fa-search bg-dark border-0"></span>
   </div>
 <input class="form-control bg-dark border-0" type="text" placeholder=" Поиск">
 </form>
- <button type="button" class="newbay btn fas fa-plus "> Добавить товар</button>
+ <button type="button" class="newbay btn fas fa-plus"> Добавить товар</button>
+
 </nav>
 </div>
 
 
-<div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="\front\bootstrap 4\editor\paris.jpg">
-  <div class="text">Подпись текста</div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+      <img class="carostyle" src="\front\prog\new\img\111.jpg">
+  </div>
+  
+  <div class="carousel-item">
+      <img class="carostyle" src="\front\prog\new\img\app-min.jpg">
+  </div>
+    
+  <div class="carousel-item">
+      <img class="carostyle" src="\front\prog\new\img\banners_1440x633_NEW.jpg">
+  </div>
+</div>
+  
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
 </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" alt="Лес" style="width:100%">
-  <div class="text">Подпись два</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" alt="Горы" style="width:100%">
-  <div class="text">Подпись три</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
 
 
-<script src="js/main.js"></script>	
 </body>
 </html>

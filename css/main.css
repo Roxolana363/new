@@ -1,34 +1,22 @@
-  .align-middle{
 
-	padding-top: 10px;
-}
-.btnp {
-	padding-top: 10px;
-}
+ .Btngrtop{
+ 	padding-top: 15px;
+ 	padding-bottom: 0px;
+ }
 
  .paris {
 	width:50px;
-	
 }
 
 nav {
 
-	height: 55px;
-
+	height: 50px;
 }
-.newbay {
-	background-color: #2ab7aa;
-    color: #fff;
-    align-self: left;
-    
 
-  
-}
 .fa-search{
+
 	padding:12px 5px 12px 0px;
-
 }
-
 input[type=text] {
 width: 130px;
 padding:12px 20px 12px 0px;
@@ -37,3 +25,23 @@ padding:12px 20px 12px 0px;
 input[type=text]:focus {
     width: 100%;
 }
+
+.newbay {
+	background-color: #2ab7aa;
+    color: #fff;
+
+ }
+
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+ .carousel-item {
+
+  width:1000px;
+  height: 400px;
+ }
+
+
+
