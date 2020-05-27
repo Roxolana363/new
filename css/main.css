@@ -32,16 +32,28 @@ input[type=text]:focus {
 
  }
 
- .carousel-inner img {
-    width: 100%;
+.carousel-inner img {
+    width: 70%;
     height: 100%;
+
   }
 
- .carousel-item {
+.carousel-item {
 
   width:1000px;
-  height: 400px;
+  height:300px;
  }
 
 
+
+.bg {
+	background-image: url("banners_1440x633_NEW.jpg"); 
+   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+  
 
