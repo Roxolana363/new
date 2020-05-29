@@ -32,28 +32,31 @@ input[type=text]:focus {
 
  }
 
-.carousel-inner img {
-    width: 70%;
-    height: 100%;
+.carousel-inner{
+	outline: none;
+	display: block;
+    width:1250px;
+    height:350px;
 
-  }
+ 
+}
+.carousel-inner img { 
+display: inline-block;
+float:right;
+width: 55%;
+height: 100%;
+margin: 0.5em;
+}
 
-.carousel-item {
-
-  width:1000px;
-  height:300px;
- }
-
-
-
-.bg {
-	background-image: url("banners_1440x633_NEW.jpg"); 
-   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.carousel-item div{
+display: inline-block;
+float: left;
+width: 40%;
+height: 80%;
+}
 
 
-
-  
-
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
