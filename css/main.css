@@ -8,9 +8,8 @@
 	width:50px;
 }
 
-nav {
-
-	height: 50px;
+.navbar {
+padding: 5px 5px 5px 5px;
 }
 
 .fa-search{
@@ -60,3 +59,15 @@ height: 80%;
 .carousel-control-prev {
     filter: invert(100%);
 }
+.grid-container {
+     
+        display: grid;
+        grid-row-gap: 10px;
+      }
+      .col img{
+      	 
+        height: 330px;
+        width: 230px;
+  
+        
+      }
