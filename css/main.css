@@ -10,6 +10,7 @@
 
 .navbar {
 padding: 5px 5px 5px 5px;
+margin: 0px 70px 10px 70px;
 }
 
 .fa-search{
@@ -70,4 +71,16 @@ height: 80%;
         width: 230px;
   
         
+      }
+      h4 {
+      	margin-left: 130px;
+      }
+      .popular{
+      	background-color: #f5eeed;
+
+      }
+      .poppad {
+      	padding: 30px 0px 20px 0px;
+     
+
       }
